@@ -2,7 +2,9 @@
 
 **One line:** FreeTime suggests what to do with your free time right now, and changes what it suggests, how it talks and who gets to approve as the user's age changes.
 
-Built at Build for Everyone (Google + k-ID, San Francisco, 21 Oct 2026). Track: Consumer AI.
+Built at Build for Everyone (Google + k-ID, San Francisco). 
+
+Track: Consumer AI.
 
 ## What it does
 
@@ -20,7 +22,10 @@ k-ID permissions (`ai-chat`, `ai-voice-mode`, `ai-memory`) gate features in both
 
 ## The screen
 
-One three-column screen. Left: sessions on this device, the k-ID band, today's free time ring, weather and place, and the k-ID permission switches (read-only: they come from k-ID, not from us). Centre: an iMessage-style chat; the age gate (age slider plus country) sits here until a session exists. Right: for a child, the parent's Family panel (link requests with topic choice, risky-ask notifications, rules); for teens and adults, their context (calendar, free windows, notes or quiz picks). Every tier gets a "What changed for you" list.
+One three-column screen. Left: sessions on this device, the k-ID band, today's free time ring, weather and place, and the k-ID permission switches (read-only: they come from k-ID, not from us). 
+Centre: an iMessage-style chat; the age gate (age slider plus country) sits here until a session exists. 
+Right: for a child, the parent's Family panel (link requests with topic choice, risky-ask notifications, rules); for teens and adults, their context (calendar, free windows, notes or quiz picks). 
+Every tier gets a "What changed for you" list.
 
 A parent can also link a child by typing the 6-digit code shown on the child's waiting screen ("Link a child"), which stands in for k-ID's one-time password.
 
@@ -74,10 +79,6 @@ Location is a **city**, not a country. The gate asks anyone 16 or older for thei
 - **Teens and adults**: a planning agent with Claude's built-in web search. It gets the date, weekday, time, weather, free windows, quiz picks or notes, and the catalogue as a fallback. If the ask mentions an event, a place type, a day, "tonight" or "this weekend", it must search (up to three queries) and at least two picks must come from real listings with a source link. Teen rules: all-ages only, nothing after 21:00, neighbourhood not address. Takes 20 to 35 seconds; the chat shows "checking the web".
 - Repeated asks rotate: the last six catalogue picks are excluded, and results are cached for only 90 seconds.
 
-## Two-device demo
-
-Run both servers on the laptop. The child opens `http://<laptop-LAN-ip>:5173` on one device; the waiting screen prints the exact `/parent` address for the parent's phone. The parent signs in there with any email, enters the child's 6-digit code, picks topics, approves. Both devices poll the same backend, so the child's screen flips within three seconds and any rule the parent flips (voice, topics, minutes) reaches the child within five. The laptop's LAN address is in the backend's `/api/health` as `lan_ip`.
-
 ## Child safety
 
 Each child message runs through a keyword pass and a Claude classifier (`safe`, `casual`, `concerning`, `dangerous`) in parallel with the suggestion call. Risky asks get a gentle one-line reply for the child, safe alternatives, and a notification on the parent's dashboard with the category and reason. Ordinary asks never reach the parent. A keyword hit can never be downgraded below `concerning` by the model.
@@ -88,11 +89,3 @@ Both sit behind the k-ID `ai-voice-mode` permission: the mic button disappears w
 
 - **Speech in: Modulate** Velma-2 batch STT. The browser records with `MediaRecorder` (webm in Chrome, mp4 in Safari) and posts the clip to `POST /api/transcribe`, which forwards it to `https://platform.modulate.ai/api/velma-2-stt-batch` with the `X-API-Key` header. The transcript goes straight into the suggestion request.
 - **Speech out: Inworld** TTS-2. `POST /api/speak` calls `https://api.inworld.ai/tts/v1/voice` with Basic auth and returns MP3. The voice follows the tier: Ashley at 0.9x for children, Alex for teens, Dennis for adults. Children's approved cards are read out automatically; others have a 🔊 button. If Inworld is unreachable the browser's own speech synthesis reads the card.
-
-## What's mocked
-
-Calendars, notes and "about me" are seeded from `backend/data/`. No database: everything is in memory.
-
-## Roadmap
-
-Google account context (calendar, Maps history) for adults, real booking, and a balanced-day planner.
