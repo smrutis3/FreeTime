@@ -1,0 +1,587 @@
+[
+ {
+  "id": "a1",
+  "title": "Golden Gate Park playground",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 3,
+  "max_age": 12,
+  "duration_min": 60,
+  "cost_usd": 0,
+  "needs_adult": true,
+  "area": "Golden Gate Park",
+  "tags": [
+   "play",
+   "outdoor",
+   "free",
+   "active"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a2",
+  "title": "Exploratorium",
+  "category": "learning",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 120,
+  "cost_usd": 40,
+  "needs_adult": true,
+  "area": "Embarcadero",
+  "tags": [
+   "science",
+   "hands-on",
+   "rainy-day",
+   "learning"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a3",
+  "title": "Cal Academy of Sciences",
+  "category": "learning",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 150,
+  "cost_usd": 45,
+  "needs_adult": true,
+  "area": "Golden Gate Park",
+  "tags": [
+   "science",
+   "animals",
+   "rainy-day",
+   "learning"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a4",
+  "title": "Crissy Field beach walk",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 0,
+  "needs_adult": true,
+  "area": "Presidio",
+  "tags": [
+   "beach",
+   "walk",
+   "outdoor",
+   "free",
+   "calm"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a5",
+  "title": "Library story time",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 8,
+  "duration_min": 45,
+  "cost_usd": 0,
+  "needs_adult": true,
+  "area": "Civic Center",
+  "tags": [
+   "books",
+   "calm",
+   "rainy-day",
+   "free"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a6",
+  "title": "Musée Mécanique",
+  "category": "games",
+  "indoor": true,
+  "min_age": 5,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 10,
+  "needs_adult": false,
+  "area": "Fisherman's Wharf",
+  "tags": [
+   "arcade",
+   "games",
+   "rainy-day",
+   "cheap"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a7",
+  "title": "Dolores Park hangout",
+  "category": "social",
+  "indoor": false,
+  "min_age": 14,
+  "max_age": 99,
+  "duration_min": 90,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "Mission",
+  "tags": [
+   "friends",
+   "outdoor",
+   "free",
+   "chill"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a8",
+  "title": "Mission Cliffs climbing",
+  "category": "sports",
+  "indoor": true,
+  "min_age": 10,
+  "max_age": 99,
+  "duration_min": 90,
+  "cost_usd": 30,
+  "needs_adult": false,
+  "area": "Mission",
+  "tags": [
+   "climbing",
+   "active",
+   "rainy-day",
+   "sports"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a9",
+  "title": "Embarcadero bike ride",
+  "category": "sports",
+  "indoor": false,
+  "min_age": 12,
+  "max_age": 99,
+  "duration_min": 90,
+  "cost_usd": 15,
+  "needs_adult": false,
+  "area": "Embarcadero",
+  "tags": [
+   "bike",
+   "active",
+   "outdoor",
+   "views"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a10",
+  "title": "Board game café",
+  "category": "games",
+  "indoor": true,
+  "min_age": 12,
+  "max_age": 99,
+  "duration_min": 120,
+  "cost_usd": 10,
+  "needs_adult": false,
+  "area": "Hayes Valley",
+  "tags": [
+   "games",
+   "friends",
+   "rainy-day",
+   "cheap"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a11",
+  "title": "Twin Peaks sunset hike",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 14,
+  "max_age": 99,
+  "duration_min": 75,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "Twin Peaks",
+  "tags": [
+   "hike",
+   "views",
+   "outdoor",
+   "free",
+   "active"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a12",
+  "title": "Ocean Beach",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 14,
+  "max_age": 99,
+  "duration_min": 90,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "Outer Sunset",
+  "tags": [
+   "beach",
+   "outdoor",
+   "free",
+   "chill"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a13",
+  "title": "Pickup basketball at a park",
+  "category": "sports",
+  "indoor": false,
+  "min_age": 14,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "Mission",
+  "tags": [
+   "basketball",
+   "friends",
+   "active",
+   "free",
+   "sports"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a14",
+  "title": "Ferry Building market",
+  "category": "food",
+  "indoor": false,
+  "min_age": 18,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 20,
+  "needs_adult": false,
+  "area": "Embarcadero",
+  "tags": [
+   "food",
+   "market",
+   "walk"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a15",
+  "title": "SFMOMA",
+  "category": "culture",
+  "indoor": true,
+  "min_age": 18,
+  "max_age": 99,
+  "duration_min": 120,
+  "cost_usd": 30,
+  "needs_adult": false,
+  "area": "SoMa",
+  "tags": [
+   "art",
+   "museum",
+   "rainy-day",
+   "culture"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a16",
+  "title": "Japanese Tea Garden",
+  "category": "culture",
+  "indoor": false,
+  "min_age": 18,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 15,
+  "needs_adult": false,
+  "area": "Golden Gate Park",
+  "tags": [
+   "garden",
+   "calm",
+   "tea",
+   "walk"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a17",
+  "title": "Presidio trail run",
+  "category": "sports",
+  "indoor": false,
+  "min_age": 18,
+  "max_age": 99,
+  "duration_min": 45,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "Presidio",
+  "tags": [
+   "run",
+   "active",
+   "outdoor",
+   "free",
+   "fitness"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a18",
+  "title": "Cinema",
+  "category": "culture",
+  "indoor": true,
+  "min_age": 18,
+  "max_age": 99,
+  "duration_min": 150,
+  "cost_usd": 18,
+  "needs_adult": false,
+  "area": "Mission",
+  "tags": [
+   "film",
+   "rainy-day",
+   "chill"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a19",
+  "title": "Build a blanket fort",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 10,
+  "duration_min": 45,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "At home",
+  "tags": [
+   "home",
+   "quiet",
+   "cozy",
+   "rainy-day",
+   "imagination"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a20",
+  "title": "Draw a giant dinosaur",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 10,
+  "duration_min": 40,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "At home",
+  "tags": [
+   "home",
+   "quiet",
+   "art",
+   "dinosaur",
+   "drawing"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a21",
+  "title": "Bake cookies together",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 12,
+  "duration_min": 60,
+  "cost_usd": 5,
+  "needs_adult": true,
+  "area": "At home",
+  "tags": [
+   "home",
+   "food",
+   "baking",
+   "together",
+   "rainy-day"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a22",
+  "title": "San Francisco Zoo",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 150,
+  "cost_usd": 25,
+  "needs_adult": true,
+  "area": "Outer Sunset",
+  "tags": [
+   "animals",
+   "outdoor",
+   "walk",
+   "learning"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a23",
+  "title": "Aquarium of the Bay",
+  "category": "learning",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 90,
+  "cost_usd": 30,
+  "needs_adult": true,
+  "area": "Fisherman's Wharf",
+  "tags": [
+   "fish",
+   "animals",
+   "rainy-day",
+   "learning",
+   "sharks"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a24",
+  "title": "Children's Creativity Museum",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 12,
+  "duration_min": 120,
+  "cost_usd": 15,
+  "needs_adult": true,
+  "area": "Yerba Buena",
+  "tags": [
+   "art",
+   "hands-on",
+   "rainy-day",
+   "making",
+   "animation"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a25",
+  "title": "Nature treasure hunt in the park",
+  "category": "outdoor",
+  "indoor": false,
+  "min_age": 3,
+  "max_age": 10,
+  "duration_min": 60,
+  "cost_usd": 0,
+  "needs_adult": true,
+  "area": "Golden Gate Park",
+  "tags": [
+   "outdoor",
+   "nature",
+   "leaves",
+   "bugs",
+   "active",
+   "free"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a26",
+  "title": "Kick a ball at the park",
+  "category": "sports",
+  "indoor": false,
+  "min_age": 3,
+  "max_age": 99,
+  "duration_min": 45,
+  "cost_usd": 0,
+  "needs_adult": true,
+  "area": "Mission",
+  "tags": [
+   "ball",
+   "football",
+   "active",
+   "outdoor",
+   "free",
+   "energy"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a27",
+  "title": "Quiet reading nook",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 12,
+  "duration_min": 30,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "At home",
+  "tags": [
+   "home",
+   "quiet",
+   "books",
+   "calm",
+   "rest"
+  ],
+  "topic": "education"
+ },
+ {
+  "id": "a28",
+  "title": "Swim at the public pool",
+  "category": "sports",
+  "indoor": true,
+  "min_age": 5,
+  "max_age": 99,
+  "duration_min": 60,
+  "cost_usd": 4,
+  "needs_adult": true,
+  "area": "Mission",
+  "tags": [
+   "swim",
+   "water",
+   "active",
+   "rainy-day",
+   "energy"
+  ],
+  "topic": "hobby"
+ },
+ {
+  "id": "a29",
+  "title": "Dance party in the living room",
+  "category": "games",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 10,
+  "duration_min": 20,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "At home",
+  "tags": [
+   "home",
+   "music",
+   "dance",
+   "energy",
+   "silly"
+  ],
+  "topic": "entertainment"
+ },
+ {
+  "id": "a30",
+  "title": "Puppet show with socks",
+  "category": "creative",
+  "indoor": true,
+  "min_age": 3,
+  "max_age": 9,
+  "duration_min": 40,
+  "cost_usd": 0,
+  "needs_adult": false,
+  "area": "At home",
+  "tags": [
+   "home",
+   "imagination",
+   "quiet",
+   "story",
+   "silly"
+  ],
+  "topic": "entertainment"
+ }
+]

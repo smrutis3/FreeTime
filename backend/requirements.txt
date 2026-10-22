@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+httpx
+anthropic>=2.0.0
+icalendar
+python-dotenv
+python-multipart

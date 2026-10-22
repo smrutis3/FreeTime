@@ -1,0 +1,120 @@
+{
+ "personas": {
+  "child": {
+   "name": "Mia",
+   "dob": "2018-04-15",
+   "parent_email": "parent@example.com"
+  },
+  "teen": {
+   "name": "Leo",
+   "dob": "2012-04-15"
+  },
+  "adult": {
+   "name": "Sam",
+   "dob": "1995-04-15"
+  }
+ },
+ "adult": {
+  "about_me": "I'm Sam, 31, a product analyst who moved to the Mission six months ago. I'm training for a 10k in November and trying to see more art this year.",
+  "notes": "Todo: finish Q4 model by Friday. Idea: visit SFMOMA's new photography wing before it closes Nov 2. Coach says easy 5k runs on weekdays, long run Saturday. Haven't seen Priya in ages - lunch today."
+ },
+ "teen": {
+  "quiz_defaults": {
+   "interests": [
+    "sports",
+    "friends"
+   ],
+   "setting": "outdoor",
+   "company": "friends",
+   "budget": "cheap",
+   "energy": "high"
+  },
+  "questions": [
+   {
+    "id": "interests",
+    "q": "What are you into?",
+    "multi": true,
+    "options": [
+     "sports",
+     "games",
+     "art",
+     "music",
+     "food",
+     "friends"
+    ]
+   },
+   {
+    "id": "setting",
+    "q": "Indoor or outdoor?",
+    "options": [
+     "indoor",
+     "outdoor",
+     "either"
+    ]
+   },
+   {
+    "id": "company",
+    "q": "Alone or with friends?",
+    "options": [
+     "solo",
+     "friends",
+     "either"
+    ]
+   },
+   {
+    "id": "budget",
+    "q": "Budget?",
+    "options": [
+     "free",
+     "cheap",
+     "whatever"
+    ]
+   },
+   {
+    "id": "energy",
+    "q": "Energy level right now?",
+    "options": [
+     "low",
+     "medium",
+     "high"
+    ]
+   }
+  ]
+ },
+ "parent_defaults": {
+  "allowed_categories": [
+   "outdoor",
+   "creative",
+   "learning",
+   "games"
+  ],
+  "adult_required_only": false,
+  "daily_budget_min": 90,
+  "used_today_min": 0,
+  "allowed_topics": [
+   "education",
+   "entertainment",
+   "hobby"
+  ]
+ },
+ "topics": [
+  {
+   "id": "education",
+   "label": "Educational",
+   "emoji": "📚",
+   "blurb": "museums, science, story time"
+  },
+  {
+   "id": "entertainment",
+   "label": "Entertainment",
+   "emoji": "🎉",
+   "blurb": "parks, beaches, games, films"
+  },
+  {
+   "id": "hobby",
+   "label": "A hobby to learn",
+   "emoji": "🧗",
+   "blurb": "climbing, cycling, sport"
+  }
+ ]
+}
